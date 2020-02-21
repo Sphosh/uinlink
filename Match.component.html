@@ -1,0 +1,100 @@
+
+
+
+<div class="animated bounceInRight global-text-style">
+  <div class="col-md-12"> 
+<div class="match-qualification">
+  <div class="heading" ><b>What are your study plans?</b></div>  
+     <div class="study-level">
+      <!--<mdb-card>-->
+        <!--<mdb-card-body>-->
+     <p><b>Qualification Level</b></p>
+     <div row>
+    <!-- Default checked -->
+    <div class="custom-control custom-radio">
+      <input type="radio" class="custom-control-input" id="defaultChecked" name="defaultExampleRadios" checked mdbInput>
+      <label class="custom-control-label" for="defaultChecked">Higher Certificate</label>
+    </div>
+
+   <div class="custom-control custom-radio">
+<input type="radio" class="custom-control-input" id="defaultUnchecked" name="defaultExampleRadios" mdbInput>
+<label class="custom-control-label" for="defaultUnchecked">Diploma</label>
+</div>
+<div class="custom-control custom-radio">
+<input type="radio" class="custom-control-input" id="defaultUnchecked1" name="defaultExampleRadios" mdbInput>
+<label class="custom-control-label" for="defaultUnchecked1">Degree</label>
+</div>
+    </div>
+
+<!--</mdb-card-body>-->
+<!--</mdb-card>-->
+ </div>
+</div>
+
+
+
+ <div class="match-course global-text-style">
+  <!--<mdb-card>-->
+    <!--<mdb-card-body>-->
+    <p><b>Course</b></p>
+    <div class="btn-group" mdbDropdown>
+      <button class="btn-sm" mdbBtn  type="button" color="warning" outline="true" mdbWavesEffec>Select courses<mdb-icon fas icon="chevron-circle-down" size="2x"></mdb-icon></button>
+    </div>
+    <!--</mdb-card-body>-->
+    <!--</mdb-card>-->
+    </div>
+    
+       <!--provinces of choice--> 
+       
+       
+       <div class="match-province">
+       <!-- Card -->
+   <!--<mdb-card>-->
+  <!--<mdb-card-body>-->
+    <p><b>In which province would you like to study?</b></p>
+    <button class="btn-sm" mdbBtn  type="button" color="warning" outline="true" mdbWavesEffec (click)="show()">Select The Province<mdb-icon fas icon="chevron-circle-down" size="2x"></mdb-icon></button>
+  <div *ngIf="showOption">
+ <div class="custom-control custom-switch">
+        <input type="checkbox" class="custom-control-input" id="customSwitches">
+        <label class="custom-control-label" for="customSwitches">Gauteng</label>
+ </div>
+<div class="custom-control custom-switch">
+      <input type="checkbox" class="custom-control-input" id="customSwitch1" checked>
+      <label class="custom-control-label" for="customSwitch1">Mpumalanga</label>
+</div>
+<div class="custom-control custom-switch">
+  <input type="checkbox" class="custom-control-input" id="customSwitches1">
+  <label class="custom-control-label" for="customSwitches1">Eastern Cape</label>
+</div>
+<div class="custom-control custom-switch">
+  <input type="checkbox" class="custom-control-input" id="customSwitches2">
+  <label class="custom-control-label" for="customSwitches2">KwaZulu Natal</label>
+</div>
+<div class="custom-control custom-switch">
+  <input type="checkbox" class="custom-control-input" id="customSwitches3">
+  <label class="custom-control-label" for="customSwitches3">Western Cape</label>
+</div>
+<div class="custom-control custom-switch">
+  <input type="checkbox" class="custom-control-input" id="customSwitches4">
+  <label class="custom-control-label" for="customSwitches4">Northern Cape</label>
+</div>
+<div class="custom-control custom-switch">
+  <input type="checkbox" class="custom-control-input" id="customSwitches5">
+  <label class="custom-control-label" for="customSwitches5">North West</label>
+</div>
+<div class="custom-control custom-switch">
+  <input type="checkbox" class="custom-control-input" id="customSwitches6">
+  <label class="custom-control-label" for="customSwitches6">Free State</label>
+</div>
+<div class="custom-control custom-switch">
+  <input type="checkbox" class="custom-control-input" id="customSwitches7">
+  <label class="custom-control-label" for="customSwitches7">Limpopo</label>
+</div>
+</div>
+  <!--<--/mdb-card-body>-->
+<!--</mdb-card>-->
+
+
+</div>
+</div>
+

@@ -1,0 +1,36 @@
+.match-qualification{
+    margin-top:-40px;
+    font-size: 20px;
+    padding-right: 90px;
+
+}
+.match-qualification .heading{
+    margin-top:40px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.match-course{
+    margin-top: 40px;
+    margin-bottom: 80px;
+    margin-right: 60px;
+    font-size: 20px;
+
+}
+
+.match-province{
+    margin-top:-40px;
+    font-size: 20px;
+    padding-right: 90px;
+}
+
+.submit-button{
+
+    margin-top: 40px;
+}
+mdb-icon {
+   
+ margin-left: 20px;
+ font-size: 20px;
+ size: 20px;
+}

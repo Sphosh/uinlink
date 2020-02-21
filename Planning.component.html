@@ -1,0 +1,60 @@
+
+<div class="unilink global-text-style">
+  
+  <div class="top_section">
+    <div class="row h-100 justify-content-center align-items-center mt-5" ></div>
+        <h4><b>Here is your match so far...</b></h4>
+      </div>
+        <div class="auto-update">
+        <p><b>nth Universities  nth Faculties</b></p> 
+  </div>
+
+<!-- Horizontal Steppers -->
+         <div class="row">
+          <div class="col-md-12"> 
+    
+    <!-- Stepers Wrapper -->
+    <ul class="stepper stepper-horizontal">
+      <!-- First Step -->
+      <li class="completed ">
+        <a>
+          <button *ngIf="isClicked" class="round-button" type="button" mdbBtn  color="warning" mdbWavesEffect>1</button>
+          <button *ngIf="!isClicked" class="round-button" type="button" mdbBtn color="success" mdbWavesEffect><mdb-icon fas icon="check"></mdb-icon></button>
+          <div class="dash">  <span class="steps">Match</span> </div>
+        
+         
+        </a>
+      
+      </li>
+      
+
+      <!-- Second Step -->
+      <li class="active">
+        <a>
+          <button *ngIf="isClicked2" class="round-button" type="button" mdbBtn  color="warning" mdbWavesEffect>2</button>
+          <button *ngIf="!isClicked2" class="round-button" type="button" mdbBtn color="success" mdbWavesEffect><mdb-icon fas icon="check"></mdb-icon></button>
+          <span class="steps">APS score Calculator</span>
+        </a>
+      </li>
+
+      <!-- Third Step -->
+      <li class="active">
+        <a>
+          <button *ngIf="isClicked3" class="round-button" type="button" mdbBtn  color="warning" mdbWavesEffect>3</button>
+          <button *ngIf="!isClicked3" class="round-button" type="button" mdbBtn color="success" mdbWavesEffect><mdb-icon fas icon="check"></mdb-icon></button>
+          <span class="steps">Results</span>
+        </a>
+      </li>
+
+    </ul>
+    <!-- /.Stepers Wrapper -->
+
+  </div>
+</div>
+<!-- /.Horizontal Steppers -->
+
+  <router-outlet></router-outlet>  
+
+    <button  class="btn-sm" mdbBtn  type="button" color="warning" outline="true" mdbWavesEffect (click)="nextPage()">{{buttonName}}</button>
+    
+</div>
